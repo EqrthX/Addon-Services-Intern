@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "UploadPDF": {
+    "Addon-Service-Intern": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
