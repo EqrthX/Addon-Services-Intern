@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addon-Service-Intern", "Addon-Service-Intern.csproj", "{040F05A7-D847-45BE-884C-79D4C7512358}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addon_Service_Intern", "Addon_Service_Intern.csproj", "{040F05A7-D847-45BE-884C-79D4C7512358}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
