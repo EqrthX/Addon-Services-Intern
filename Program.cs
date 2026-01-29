@@ -1,4 +1,5 @@
 using Addon_Service_Intern;
+using Addon_Service_Intern.Interfaces;
 using Addon_Service_Intern.Services;
 using Microsoft.Extensions.FileProviders;
 
@@ -18,6 +19,8 @@ builder.Services.AddHttpClient("ServiceB", client =>
     // เพิ่มบรรทัดนี้เพื่อข้ามการตรวจ SSL บน Localhost
     ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
 });
+builder.Services.AddScoped<EmailWorker>();
+builder.Services.AddScoped<IEmailService,EmailService>();
 builder.Services.AddScoped<DocsServices>();
 var app = builder.Build();
 

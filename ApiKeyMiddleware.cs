@@ -7,7 +7,7 @@ namespace Addon_Service_Intern;
 public class ApiKeyMiddleware
 {
     private readonly RequestDelegate _next;
-    private const string API_KEY_HEADER_NAME = "X-Secret-Key";
+    private const string API_KEY_HEADER_NAME = "x-api-key";
 
     public ApiKeyMiddleware(RequestDelegate next)
     {
